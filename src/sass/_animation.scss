@@ -1,0 +1,35 @@
+@keyframes animationNav {
+	from {
+		transform: translate(-50%, -130px);
+	}
+	to {
+		transform: translate(-50%, 0);
+	}
+}
+
+@keyframes animationNavHamStart {
+	from {
+		transform: translateX(-500px);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes animationNavHamEnd {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-500px);
+	}
+}
+
+@keyframes animationArrow {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

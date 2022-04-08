@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Łukasz Romanek">
+    <meta name="description"
+        content="Łukasz Romanek - interaktywne portfolio stworzone w celu zaprezentowania swoich programistycznych możliwości front-end.">
+    <meta name="keywords"
+        content="portfolio, front-end developer, html5, css3, javascript, tworzenie stron, programowanie">
+    <title>Łukasz Romanek - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cantora+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="dist/css/hamburgers.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <script src="https://kit.fontawesome.com/b29ba5ca35.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="hero-shadow"></div>
+    <nav class="nav-menu__hamburger">
+        <a href="#about-me" class="nav-menu__item">o mnie</a>
+        <a href="#projects" class="nav-menu__item">projekty</a>
+        <a href="#contact" class="nav-menu__item">kontakt</a>
+    </nav>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav__logo" data-aos="zoom-in-right" data-aos-delay="500">
+                <a href="#" class="nav__logo-text">łukasz romanek</a>
+            </div>
+            <div class="nav__hamburger">
+                <button class="hamburger hamburger--arrow" type="button" data-aos="zoom-in-right" data-aos-delay="500">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+            <div class="nav__menu" data-aos="zoom-in-right" data-aos-delay="500">
+                <a href="#about-me" class="nav__menu-item">o mnie</a>
+                <a href="#projects" class="nav__menu-item">projekty</a>
+                <a href="#contact" class="nav__menu-item">kontakt</a>
+            </div>
+        </nav>
+        <header class="header">
+            <h1 class="header__title" data-aos="fade-up" data-aos-delay="700">Witam na moim interaktywnym portfolio</h1>
+            <a href="#about-me" class="header__btn">poznaj mnie</a>
+            <img src="./dist/img/corner-right-down.svg" alt="" class="header__arrow-down">
+        </header>
+        <main class="main">
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="500">o mnie</h2>
+            <section class="about-me" id="about-me">
+                <p class="page__text" data-aos="fade-up" data-aos-delay="500">Cześć, nazywam się Łukasz i jestem
+                    początkującym programistą
+                    front-endowym.
+                    Strona, którą właśnie oglądasz próbka moich możliwości po
+                    samodzielnej nauce programowania. Poświęć mi chwilę i zapoznaj się z obecną tu treścią, być może
+                    coś Cię zainteresuję albo po prostu będziesz chętny lub chętna nawiązać ze mną współpracę.</p>
+                <h3 class="section-subtitle"><i class="fas fa-microchip"></i>technologia</h3>
+                <p class="page__text" data-aos="fade-up" data-aos-delay="500">Doskonalenie swoich umiejętności
+                    skupiam
+                    obecnie na różnych technologiach,
+                    optymalizacji kodu a swoją wiedzę opieram na źródłach internetowych jak i płatnych kursach. Do
+                    swoich projektów wdrażam technologię RWD, metodologię BEM, SEO i pracę z API REST.
+                </p>
+                <div class="about-me__skills-boxes">
+                    <div class="about-me__skill-box html" data-aos="flip-up" data-aos-delay="500"><i
+                            class="fab fa-html5"></i></div>
+                    <div class="about-me__skill-box css" data-aos="flip-up" data-aos-delay="700"><i
+                            class="fab fa-css3-alt"></i></div>
+                    <div class="about-me__skill-box sass" data-aos="flip-up" data-aos-delay="900"><i
+                            class="fab fa-sass"></i></div>
+                    <div class="about-me__skill-box js" data-aos="flip-up" data-aos-delay="1100"><i
+                            class="fab fa-js"></i></div>
+                    <div class="about-me__skill-box bootstrap" data-aos="flip-up" data-aos-delay="1300"><i
+                            class="fab fa-bootstrap"></i></div>
+                    <div class="about-me__skill-box git" data-aos="flip-up" data-aos-delay="1500"><i
+                            class="fab fa-git-square"></i></div>
+                    <div class="about-me__skill-box gulp" data-aos="flip-up" data-aos-delay="1700"><i
+                            class="fab fa-gulp"></i></div>
+                </div>
+                <h3 class="section-subtitle"><i class="fas fa-award"></i>umiejętności</h3>
+                <div class="about-me__abilities">
+                    <p class="page__text" data-aos="fade-up" data-aos-delay="500"><i class="fas fa-dumbbell"></i>Moją
+                        mocną stroną jest kreatywność i
+                        precyzyjność. Lubię rozwiązywać
+                        problemy,
+                        bardzo szybko się uczę, a motywacja w postaci połączenia przyjemnego z pożytecznym dodatkowo
+                        zachęca
+                        mnie do dalszej nauki i samorozwoju.</p>
+                    <p class="page__text" data-aos="fade-up" data-aos-delay="500"><i
+                            class="fas fa-briefcase"></i>Aktualnie poszukuję pracy jako Junior
+                        Front-end Developer.
+                        Chciałbym doskonalić swoje możliwości pod okiem profesjonalistów, gdyż nie ukrywam, że praca z
+                        kodem
+                        sprawia mi ogromną przyjemność.</p>
+                </div>
+            </section>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="500">projekty</h2>
+            <section class="projects" id="projects">
+                <p class="page__text" data-aos="fade-up" data-aos-delay="500">Mimo, że dopiero zacząłem swoją przygodę
+                    z
+                    programowaniem próbuję tworzyć
+                    własne
+                    małe projekty. W tym dziale sukcesywnie będę prezentoweał swoje możliwości.</p>
+                <div class="projects__boxes">
+                    <div class="project__box" data-aos="flip-left" data-aos-delay="700">
+                        <img src="./dist/img/energyConsAp.jpg" alt="zdjęcie aplikacji do obliczania energii"
+                            class="project__photo">
+                        <a href="./projects/project1.html" target="_blank" class="project__text">program do obliczania
+                            zużycia
+                            energii</a>
+                    </div>
+                    <div class="project__box" data-aos="flip-left" data-aos-delay="800">
+                        <img src="./dist/img/quizForest.jpg"
+                            alt="zdjęcie aplikacji do sprawdzenia wiedzy o polskich lasach" class="project__photo">
+                        <a href="./projects/project2.html" target="_blank" class="project__text">quiz sprawdzający
+                            wiedzę o
+                            polskich lasach</a>
+                    </div>
+                    <div class="project__box" data-aos="flip-left" data-aos-delay="900">
+                        <img src="./dist/img/project.jpg" alt="koparka" class="project__photo">
+                        <p class="project__text">w trakcie realizacji...</p>
+                    </div>
+                </div>
+            </section>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="500">kontakt</h2>
+            <section class="contact" id="contact">
+                <div class="contact__text">
+                    <p class="page__text" data-aos="fade-up" data-aos-delay="500">Jeśli w jakimś stopniu
+                        zainteresowało
+                        Cię moje porfolio, widzisz potencjał i
+                        chciałbyś podzielić się obiektywnym komentarzem na temat tej strony i projektów lub nawiązać ze
+                        mną współpracę zapraszam do kontaktu za pośrednictwem formularza. Zapraszam również na mój
+                        profil na LinkedIn i GitHub.</p>
+                    <div class="contact__links">
+                        <a href="https://www.linkedin.com/in/łukasz-romanek" target="_blank" class="contact__links-icon"
+                            data-aos="zoom-in" data-aos-delay="500"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/OrionFanWeb1701" target="_blank" class="contact__links-icon"
+                            data-aos="zoom-in" data-aos-delay="500"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact__form">
+                    <form class="form" method="post" action="send_form.php" id="contact_form" data-aos="flip-right"
+                        data-aos-delay="700">
+                        <input class="formField" type="text" placeholder="Imię*" name="name" id="name" maxlength="12" />
+                        <textarea class="formField" name="message" placeholder="Tekst wiadomości (max: 500 znaków)*"
+                            id="message" maxlength="500"></textarea>
+                        <input class="formField" type="email" placeholder="E-mail*" name="email"
+                            pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" id="email" />
+                        <button class="form__btn" id="sendBtn">wyślij</button>
+                    </form>
+                    <p id="send_form_status" class="contact__send-info"></p>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__text"><span class="year"></span> &copy; Łukasz Romanek</p>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./dist/js/aossettings.min.js"></script>
+    <script src="./dist/js/form.min.js"></script>
+    <script src="./dist/js/script.min.js"></script>
+</body>
+
+</html>
